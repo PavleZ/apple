@@ -1,0 +1,633 @@
+[
+    {
+       "id":1,
+       "series":{
+          "id":1,
+          "name":"11 series"
+       },
+       "picture":{
+          "src":"assets/images/products/iphone11pro.png",
+          "alt":"iPhone 11 Pro"
+       },
+       "deviceType":{
+          "id":1,
+          "name":"iphone"
+       },
+       "name":"iPhone 11 Pro",
+       "colors":[
+          "#4E5851",
+          "#EBEBE3",
+          "#535150",
+          "#FAD7BD"
+       ],
+       "startingPrice":999,
+       "display":{
+          "size":5.8,
+          "type":{
+             "id":1,
+             "name":"Super Retina XDR display"
+          }
+       },
+       "camera":{
+          "id":1,
+          "mps":12,
+          "recording":"4K video recording up to 60 fps"
+       },
+       "unlockMechanism":"FaceID",
+       "CPU":"A13",
+       "battery":"Lasts up to 4 hours longer than iPhone XS",
+       "waterResistent":4,
+       "capacity":[
+          64,
+          256,
+          512
+       ]
+    },
+    {
+       "id":2,
+       "series":{
+          "id":1,
+          "name":"11 series"
+       },
+       "picture":{
+          "src":"assets/images/products/iphone11pro_max.png",
+          "alt":"iPhone 11 Pro Max"
+       },
+       "deviceType":{
+          "id":1,
+          "name":"iphone"
+       },
+       "name":"iPhone 11 Pro Max",
+       "colors":[
+          "#4E5851",
+          "#EBEBE3",
+          "#535150",
+          "#FAD7BD"
+       ],
+       "startingPrice":1099,
+       "display":{
+          "size":6.5,
+          "type":{
+             "id":1,
+             "name":"Super Retina XDR display"
+          }
+       },
+       "camera":{
+          "id":1,
+          "mps":12,
+          "recording":"4K video recording up to 60 fps"
+       },
+       "unlockMechanism":"FaceID",
+       "CPU":"A13",
+       "battery":"Longest battery life in an iPhone. Lasts up to 5 hours longer than iPhone XS Max",
+       "waterResistent":4,
+       "capacity":[
+          64,
+          256,
+          512
+       ]
+    },
+    {
+       "id":3,
+       "series":{
+          "id":1,
+          "name":"11 series"
+       },
+       "picture":{
+          "src":"assets/images/products/iphone11_large.png",
+          "alt":"iPhone 11"
+       },
+       "deviceType":{
+          "id":1,
+          "name":"iphone"
+       },
+       "name":"iPhone 11",
+       "colors":[
+          "#D1CDDA",
+          "#FFE681",
+          "#AEE1CD",
+          "#1F2020",
+          "#F9F6EF",
+          "#BA0C2E"
+       ],
+       "startingPrice":699,
+       "display":{
+          "size":6.1,
+          "type":{
+             "id":2,
+             "name":"Liquid Retina HD display"
+          }
+       },
+       "camera":{
+          "id":1,
+          "mps":12,
+          "recording":"4K video recording up to 60 fps"
+       },
+       "unlockMechanism":"FaceID",
+       "CPU":"A13",
+       "battery":"Lasts up to 1 hour longer than iPhone XR",
+       "waterResistent":2,
+       "capacity":[
+          64,
+          128,
+          256
+       ]
+    },
+    {
+       "id":4,
+       "series":{
+          "id":2,
+          "name":"X series"
+       },
+       "picture":{
+          "src":"assets/images/products/iphoneXS.png",
+          "alt":"iPhone XS"
+       },
+       "deviceType":{
+          "id":1,
+          "name":"iphone"
+       },
+       "name":"iPhone XS",
+       "colors":[
+          "#E4E4E2",
+          "#262529",
+          "#FADCC2"
+       ],
+       "startingPrice":699,
+       "display":{
+          "size":5.8,
+          "type":{
+             "id":3,
+             "name":"Super Retina HD display"
+          }
+       },
+       "camera":{
+          "id":2,
+          "mps":7,
+          "recording":"1080p HD video recording up to 60 fps"
+       },
+       "unlockMechanism":"FaceID",
+       "CPU":"A12",
+       "battery":"Lasts up to 30 minutes longer than iPhone X",
+       "waterResistent":2,
+       "capacity":[
+          64,
+          256,
+          512
+       ]
+    },
+    {
+       "id":5,
+       "series":{
+          "id":2,
+          "name":"X series"
+       },
+       "picture":{
+          "src":"assets/images/products/iphoneXSmax.png",
+          "alt":"iPhone XS Max"
+       },
+       "deviceType":{
+          "id":1,
+          "name":"iphone"
+       },
+       "name":"iPhone XS Max",
+       "colors":[
+          "#E4E4E2",
+          "#262529",
+          "#FADCC2"
+       ],
+       "startingPrice":799,
+       "display":{
+          "size":6.5,
+          "type":{
+             "id":3,
+             "name":"Super Retina HD display"
+          }
+       },
+       "camera":{
+          "id":2,
+          "mps":7,
+          "recording":"1080p HD video recording up to 60 fps"
+       },
+       "unlockMechanism":"FaceID",
+       "CPU":"A12",
+       "battery":"Lasts up to 1.5 hours longer than iPhone X",
+       "waterResistent":2,
+       "capacity":[
+          64,
+          256,
+          512
+       ]
+    },
+    {
+       "id":6,
+       "series":{
+          "id":2,
+          "name":"X series"
+       },
+       "picture":{
+          "src":"assets/images/products/iphoneXR.png",
+          "alt":"iPhone XR"
+       },
+       "deviceType":{
+          "id":1,
+          "name":"iphone"
+       },
+       "name":"iPhone XR",
+       "colors":[
+          "#48AEE6",
+          "#F3F3F3",
+          "#2E3034",
+          "#F9D045",
+          "#FF6E5A",
+          "#B41325"
+       ],
+       "startingPrice":599,
+       "display":{
+          "size":6.1,
+          "type":{
+             "id":2,
+             "name":"Liquid Retina HD display"
+          }
+       },
+       "camera":{
+          "id":2,
+          "mps":7,
+          "recording":"1080p HD video recording up to 60 fps"
+       },
+       "unlockMechanism":"FaceID",
+       "CPU":"A12",
+       "battery":"Lasts up to 1.5 hours longer than iPhone 8 Plus",
+       "waterResistent":1,
+       "capacity":[
+          64,
+          128
+       ]
+    },
+    {
+       "id":7,
+       "series":{
+          "id":2,
+          "name":"X series"
+       },
+       "picture":{
+          "src":"assets/images/products/iphoneX.png",
+          "alt":"iPhone X"
+       },
+       "deviceType":{
+          "id":1,
+          "name":"iphone"
+       },
+       "name":"iPhone X",
+       "colors":[
+          "#E4E4E2",
+          "#262529"
+       ],
+       "startingPrice":579,
+       "display":{
+          "size":6.1,
+          "type":{
+             "id":3,
+             "name":"Super Retina HD display"
+          }
+       },
+       "camera":{
+          "id":3,
+          "mps":7,
+          "recording":"1080p HD video recording up to 30 fps"
+       },
+       "unlockMechanism":"FaceID",
+       "CPU":"A11",
+       "battery":"Lasts up to 2 hours longer than iPhone 7",
+       "waterResistent":1,
+       "capacity":[
+          64,
+          256
+       ]
+    },
+    {
+       "id":8,
+       "series":{
+          "id":3,
+          "name":"8 series"
+       },
+       "picture":{
+          "src":"assets/images/products/iphone8plus.png",
+          "alt":"iPhone 8 Plus"
+       },
+       "deviceType":{
+          "id":1,
+          "name":"iphone"
+       },
+       "name":"iPhone 8 Plus",
+       "colors":[
+          "#E4E4E2",
+          "#262529",
+          "#F7E8DD"
+       ],
+       "startingPrice":549,
+       "display":{
+          "size":5.5,
+          "type":{
+             "id":4,
+             "name":"Retina HD display"
+          }
+       },
+       "camera":{
+          "id":3,
+          "mps":7,
+          "recording":"1080p HD video recording up to 30 fps"
+       },
+       "unlockMechanism":"Touch ID",
+       "CPU":"A11",
+       "battery":"Lasts about the same as iPhone 7 Plus",
+       "waterResistent":1,
+       "capacity":[
+          64,
+          128
+       ]
+    },
+    {
+       "id":9,
+       "series":{
+          "id":3,
+          "name":"8 series"
+       },
+       "picture":{
+          "src":"assets/images/products/iphone8.png",
+          "alt":"iPhone 8"
+       },
+       "deviceType":{
+          "id":1,
+          "name":"iphone"
+       },
+       "name":"iPhone 8",
+       "colors":[
+          "#E4E4E2",
+          "#262529",
+          "#F7E8DD"
+       ],
+       "startingPrice":449,
+       "display":{
+          "size":4.7,
+          "type":{
+             "id":4,
+             "name":"Retina HD display"
+          }
+       },
+       "camera":{
+          "id":3,
+          "mps":7,
+          "recording":"1080p HD video recording up to 30 fps"
+       },
+       "unlockMechanism":"Touch ID",
+       "CPU":"A11",
+       "battery":"Lasts about the same as iPhone 7",
+       "waterResistent":1,
+       "capacity":[
+          64,
+          128
+       ]
+    },
+    {
+       "id":10,
+       "series":{
+        "id":10,
+        "name":"12.9-in. iPad Pro"
+     },
+       "picture":{
+          "src":"assets/images/products/11proMedium.png",
+          "alt":"12.9-in. iPad Pro"
+       },
+       "deviceType":{
+          "id":2,
+          "name":"ipad"
+       },
+       "name":"12.9-in. iPad Pro",
+       "colors":[
+          "#E2E3E4",
+          "#B1B2B7"
+       ],
+       "startingPrice":999,
+       "display":{
+          "size":12.9,
+          "type":{
+             "id":2,
+             "name":"Liquid Retina HD display"
+          }
+       },
+       "camera":{
+          "id":2,
+          "mps":7,
+          "recording":"1080p HD video recording up to 60 fps"
+       },
+       "unlockMechanism":"FaceID",
+       "CPU":"A12X",
+       "battery":"Up to 10 hours of surﬁng the web on Wi‑Fi, watching video, or listening to music",
+       "capacity":[
+          64,
+          256,
+          512
+       ]
+    },
+    {
+       "id":11,
+       "series":{
+        "id":11,
+        "name":"11-in. iPad Pro"
+     },
+       "picture":{
+          "src":"assets/images/products/ipad_pro_11.png",
+          "alt":"11-in. iPad Pro"
+       },
+       "deviceType":{
+          "id":2,
+          "name":"ipad"
+       },
+       "name":"11-in. iPad Pro",
+       "colors":[
+          "#E2E3E4",
+          "#B1B2B7"
+       ],
+       "startingPrice":799,
+       "display":{
+          "size":11,
+          "type":{
+             "id":2,
+             "name":"Liquid Retina HD display"
+          }
+       },
+       "camera":{
+          "id":2,
+          "mps":7,
+          "recording":"1080p HD video recording up to 60 fps"
+       },
+       "unlockMechanism":"FaceID",
+       "CPU":"A12X",
+       "battery":"Up to 10 hours of surﬁng the web on Wi‑Fi, watching video, or listening to music",
+       "capacity":[
+          64,
+          256,
+          512
+       ]
+    },
+    {
+       "id":12,
+       "series":{
+        "id":12,
+        "name":"iPad Air"
+     },
+       "picture":{
+          "src":"assets/images/products/ipad_air.png",
+          "alt":"iPad Air"
+       },
+       "deviceType":{
+          "id":2,
+          "name":"ipad"
+       },
+       "name":"iPad Air",
+       "colors":[
+          "#E2E3E4",
+          "#B1B2B7",
+          "#F6CDB9"
+       ],
+       "startingPrice":499,
+       "display":{
+          "size":10.5,
+          "type":{
+             "id":5,
+             "name":" Retina display"
+          }
+       },
+       "camera":{
+          "id":3,
+          "mps":7,
+          "recording":"1080p HD video recording up to 30 fps"
+       },
+       "unlockMechanism":"Touch ID",
+       "CPU":"A12",
+       "battery":"Up to 10 hours of surﬁng the web on Wi‑Fi, watching video, or listening to music",
+       "capacity":[
+          64,
+          256
+       ]
+    },
+    {
+       "id":13,
+       "series":{
+        "id":13,
+        "name":"MackBook Air(Retina)"
+     },
+       "picture":{
+          "src":"assets/images/products/macbook_air.png",
+          "alt":"MackBook Air"
+       },
+       "deviceType":{
+          "id":3,
+          "name":"MackBook"
+       },
+       "name":"MackBook Air(Retina)",
+       "colors":[
+          "#E2E3E4",
+          "#B1B2B7",
+          "#E3CCB4"
+       ],
+       "startingPrice":1099,
+       "display":{
+          "size":13.3,
+          "type":{
+             "id":5,
+             "name":" Retina display"
+          }
+       },
+       "camera":{
+          "id":4,
+          "mps":5,
+          "recording":" 720p FaceTime HD camera"
+       },
+       "unlockMechanism":"Touch ID",
+       "CPU":"i5",
+       "battery":"Up to 12 hours",
+       "capacity":[
+          1
+       ]
+    },
+    {
+       "id":14,
+       "series":{
+        "id":14,
+        "name":"MackBook Pro 13-in"
+        },
+       "picture":{
+          "src":"assets/images/products/macbook_pro_13.png",
+          "alt":"MackBook Pro 13-in"
+       },
+       "deviceType":{
+          "id":3,
+          "name":"MackBook"
+       },
+       "name":"MackBook Pro 13-in",
+       "colors":[
+          "#E2E3E4",
+          "#B1B2B7"
+       ],
+       "startingPrice":1299,
+       "display":{
+          "size":13,
+          "type":{
+             "id":5,
+             "name":" Retina display"
+          }
+       },
+       "camera":{
+          "id":4,
+          "mps":5,
+          "recording":" 720p FaceTime HD camera"
+       },
+       "unlockMechanism":"Touch ID",
+       "CPU":"i7",
+       "battery":"Up to 10 hours",
+       "capacity":[
+          2
+       ]
+    },
+    {
+       "id":15,
+       "series":{
+        "id":15,
+        "name":"MackBook Pro 16-in"
+        },
+       "picture":{
+          "src":"assets/images/products/macbook_pro_16.png",
+          "alt":"MackBook Pro 16-in"
+       },
+       "deviceType":{
+          "id":3,
+          "name":"MackBook"
+       },
+       "name":"MackBook Pro 16-in",
+       "colors":[
+          "#E2E3E4",
+          "#B1B2B7"
+       ],
+       "startingPrice":2399,
+       "display":{
+          "size":16,
+          "type":{
+             "id":5,
+             "name":" Retina display"
+          }
+       },
+       "camera":{
+          "id":4,
+          "mps":5,
+          "recording":" 720p FaceTime HD camera"
+       },
+       "unlockMechanism":"Touch ID",
+       "CPU":"i9",
+       "battery":"Up to 11 hours",
+       "capacity":[
+          8
+       ]
+    }
+ ]

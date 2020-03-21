@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="keywords" content="Store, Apple store, iphone, ipad, macbook">
+    <meta name="description" content="Our online store will amaze you with our great offer of iphones, macbooks and ipads.">
+    <!-- SEO -->
+    <link rel="shortcut icon" href="assets/images/fav.ico" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/3a1f074dc3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-2">
+                    <a href="index.html" class="nav-link my-auto"><img src="assets/images/logo1.png" alt="logo" /></a>
+
+                </div>
+                <div class="col-lg-10 col-10">
+                    <nav id="navigation" class="d-flex justify-content-center np ">
+                        <ul class="d-flex justify-content-around  flex-md-row flex-column flex-sm-row  np w-100" id="meni">
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="main">
+        <div class="container">
+            <div class="row" id="filterHolder">
+                <div class="col-lg-3" id="deviceType">
+                    <form id="filterForm">
+                        <select id="devTypeDDL" class="form-control">
+                            <option value="0">Device type</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="col-lg-3 d-flex" id="filters">
+                    <select id="modelsDDL" class="form-control" form="filterForm">
+                        <option value="0">Models</option>
+                    </select>
+                </div>
+                <div class="col-lg-3" id="filters">
+                    <select id="devicesDDL" class="form-control" form="filterForm">
+                        <option value="0">Sort by</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-3 d-flex" id="filters">
+                    <input type="text" id="tbSearch" class="form-control" placeholder="Search device" form="filterForm">
+                    <button id="searchBtn" form="filterForm" class="plavaPozadina"><i class="fas fa-search belaSlova"></i></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row" id="products">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="footer">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-lg-9  d-flex align-items-center  justify-content-lg-start justify-content-center" id="devby">
+                    <a href="autor.html">
+                        <p class="np">Developed by Pavle Zivanovic</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 ">
+                    <nav id="links " class="d-flex  justify-content-center justify-content-lg-end  align-items-center">
+                        <ul class="d-flex ustify-content-center justify-content-lg-end  align-items-center" id="futerMeni">
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-lg-12" id="modal-Device">
+
+            </div>
+        </div>
+    </div>
+    <div class="strelica">
+        <a href="#"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="assets/js/main.js">
+    </script>
+</body>
+</html>

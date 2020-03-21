@@ -1,0 +1,26 @@
+[
+   {
+      "href":"#",
+      "tekst":"<i class=\"fas fa-bars\"></i>"
+   },
+   {
+      "href":"index.html#macbook",
+      "tekst":"Mac"
+   },
+   {
+      "href":"index.html#ipad",
+      "tekst":"iPad"
+   },
+   {
+      "href":"index.html#iphone",
+      "tekst":"iPhone"
+   },
+   {
+      "href":"store.html",
+      "tekst":"Store"
+   },
+   {
+      "href":"cart.html",
+      "tekst":"<i class=\"fas fa-shopping-cart korpica\"></i>"
+   }
+]

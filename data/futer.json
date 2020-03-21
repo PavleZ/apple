@@ -1,0 +1,9 @@
+[
+    {
+        "href":"sitemap.xml",
+        "tekst":"<i class=\"fas fa-sitemap\"></i>"
+    },{
+        "href":"dokumentacija.pdf",
+        "tekst":"<i class=\"fas fa-file\"></i>"
+    }
+]
