@@ -41,7 +41,7 @@ a{
     margin: 0px;
 }
 .gmm {
-    margin-top:2.7rem ;
+    margin-top:4rem ;
 }
 #devby a{
     text-decoration:none;
@@ -259,6 +259,9 @@ dl, ol, ul{
 }
 .b{
     font-weight: 600;
+}
+.modal-content{
+    max-height: calc(100vh - 7rem) !important;
 }
 @media only screen and (min-width: 576px) {
     .hamburger{

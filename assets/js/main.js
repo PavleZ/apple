@@ -161,6 +161,7 @@ function prikaziFuter(stavke) {
 function prikaziProizvode(devices) {
     let divIspis = document.getElementById("products");
     html = "";
+   
     devices.forEach(device => {
         html += `<div class="col-lg-3 " >
            <div class="productsmd" data-id="${device.id}"> <div class="name">
@@ -427,6 +428,7 @@ function dodajUkorpu(e) {
         }
 
     }
+    alert("Device has been added to cart successfully");
 }
 
 function proveriPodatke() {
@@ -475,7 +477,7 @@ function ispisiProizvodModal(proizvod) {
     proizvod.forEach(el => {
         html = ` 
         <div class=" " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-xl modal-dialog-scrollable gmm" role="document">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable gmm" role="document">
         <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="text-center">${el.name}</h4>
@@ -508,9 +510,11 @@ function ispisiProizvodModal(proizvod) {
                     <td>Processor:</td>
                     <td>${el.CPU}</td>
                 </tr>
+                <tr>
                 <td>Battery:</td>
                     <td>${el.battery}</td>
                 </tr>
+                <tr>
                 <td>Capacity:</td>
                     <td>${dajKapacitete(el.capacity,el.deviceType.name)}</td>
                 </tr>
