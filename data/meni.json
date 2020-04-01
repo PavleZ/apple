@@ -21,6 +21,6 @@
    },
    {
       "href":"cart.html",
-      "tekst":"<i class=\"fas fa-shopping-cart korpica\"></i>"
+      "tekst":"<i class=\"fas fa-shopping-cart korpica\"></i><span id=\"brojItema\" class=\"text-white \"></span>"
    }
 ]

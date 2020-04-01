@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box !important;
     scroll-behavior: smooth;
+ 
 }
 #header,#footer{
     background-color: #2F2F2F;
@@ -46,6 +47,12 @@ a{
 #devby a{
     text-decoration:none;
 }
+#meni{
+    position: relative;
+    overflow: auto;
+
+}
+
 #meni li a:hover,#futerMeni li a:hover,#devby a:hover{
     color:#fff;
     transition: .3s ease-in-out;
@@ -225,6 +232,15 @@ dl, ol, ul{
 .korpica{
     font-size: 1.1rem;
 }
+#brojItema{
+    background-color: #ff0000;
+    border-radius:50%;
+    position: absolute;
+    padding: 0px 2px;
+    right:7%;
+    top:1%;
+}
+
 .strelica{
     position: fixed;
     display: none;
@@ -242,12 +258,57 @@ dl, ol, ul{
     .color{
         width:1.5rem;
    }
+   #brojItema{
+       top:83%;
+       right:1%;
+    padding: 0px 2px;
+    
+
+
+   }
 }
 @media only screen and (min-width: 576px) {
     #sliderPromo .promoLink{
         width:20%;
    }
+   #brojItema{
+    top:1%;
+    right:3%;
+
+
+
 }
+}
+@media only screen and (min-width: 767px) {
+   
+   #brojItema{
+    right:5%;
+
+
+
+}
+}
+@media only screen and (min-width: 992px) {
+   
+    #brojItema{
+     right:6%;
+ 
+ 
+ 
+ }
+ }
+
+
+ @media only screen and (min-width: 1200px) {
+   
+    #brojItema{
+     right:7%;
+ 
+ 
+ 
+ }
+ }
+
 #imgAutor{
     width: 40%;
 }

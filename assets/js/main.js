@@ -117,7 +117,6 @@ window.onload = function() {
 
 
     }
-
 }
 
 function prikaziMeni(stavke) {
@@ -130,6 +129,9 @@ function prikaziMeni(stavke) {
             html += `<li class="d-flex justify-content-end stavka sakrij"><a href="${stavka.href}" class="nav-link d-flex justify-content-end align-items-center">${stavka.tekst}</a></li>`
         }
     })
+
+    
+    // html+=`<li class="stavka sakrij bg-danger br" ></li>`;
     // console.log(html);
     divIspis.innerHTML = html;
     $(".hamburger").click(function(e) {
@@ -146,6 +148,7 @@ function prikaziMeni(stavke) {
         }
 
     })
+    brojItemaUKorpi();
 
 }
 
@@ -429,6 +432,7 @@ function dodajUkorpu(e) {
 
     }
     alert("Device has been added to cart successfully");
+    brojItemaUKorpi();
 }
 
 function proveriPodatke() {
@@ -604,6 +608,7 @@ function dajKolicinu(idUredaja) {
     let products = JSON.parse(localStorage.getItem("zaKorpu"));
     let kolicina = products.filter(p => p.id == idUredaja)
     return kolicina[0].quantity;
+    brojItemaUKorpi();
 
 }
 
@@ -626,6 +631,8 @@ function umanjiKolicinu(e) {
     proveriKolicine(id);
     iscitajIzKorpe(svi);
     praznaKorpa();
+    brojItemaUKorpi();
+   
 
 }
 
@@ -639,6 +646,7 @@ function dodajKolicinu(e) {
     osveziKolicine(id);
     proveriKolicine(id);
     iscitajIzKorpe(svi);
+    brojItemaUKorpi();
 
 
 }
@@ -648,6 +656,7 @@ function osveziKolicine(id) {
     let kolicina = products.filter(p => p.id == id)
     document.getElementById(`q${id}`).innerHTML = kolicina[0].quantity;
     praznaKorpa();
+    brojItemaUKorpi();
 
 
 }
@@ -673,6 +682,7 @@ function proveriKolicine(id) {
         localStorage.setItem("zaKorpu", JSON.stringify(products));
         praznaKorpa();
     }
+    brojItemaUKorpi();
 }
 
 function praznaKorpa() {
@@ -697,5 +707,27 @@ function obrisiProizvod() {
     localStorage.setItem("zaKorpu", JSON.stringify(products));
     praznaKorpa();
     iscitajIzKorpe(svi);
+    brojItemaUKorpi();
+
+}
+function brojItemaUKorpi(){
+    
+    let brojItema;
+    if(!localStorage.getItem("zaKorpu"))
+    brojItema=0;
+
+    else{
+        let itemi=JSON.parse(localStorage.getItem("zaKorpu"));
+        
+        console.log(itemi);
+        let kol=0;
+        itemi.forEach(item=>{
+            kol+=item.quantity;
+        })
+        brojItema=kol;
+    }
+
+    document.getElementById("brojItema").innerHTML=brojItema;
+    
 
 }
